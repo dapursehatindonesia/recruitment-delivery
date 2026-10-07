@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Healthy Go Careers — lowongan kerja dan recruitment assessment.">
+<title>Healthy Go — Careers</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="nav-wrap">
+    <a class="brand" href="#home" data-page="home" aria-label="Healthy Go Careers">
+      <div class="brand-mark">HG</div><div><b>Healthy Go</b><small>Careers</small></div>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home" data-page="home">Home</a>
+      <a href="#jobs" data-page="jobs">Lowongan Kerja</a>
+      <a href="#apply" data-page="apply">Lamaran</a>
+    </nav>
+  </div>
+</header>
+
+<main class="app-shell">
+  <section id="home" class="page active">
+    <div class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">HEALTHY GO • CAREERS</span>
+        <h1>Grow your career<br><em>with Healthy Go.</em></h1>
+        <p>Temukan kesempatan untuk berkembang dan menjadi bagian dari tim Healthy Go yang menghadirkan layanan makanan dan delivery yang aman, tepat, dan profesional.</p>
+        <div class="hero-actions"><button class="primary" data-page="jobs">Lihat Lowongan Kerja</button><button class="secondary" data-page="apply">Langsung Lamar</button></div>
+      </div>
+      <div class="hero-badge"><span>HEALTHY GO</span><strong>Build.<br>Serve.<br>Grow.</strong></div>
+    </div>
+
+    <div class="section-head"><span class="eyebrow">TENTANG HEALTHY GO</span><h2>Tempat untuk bertumbuh bersama.</h2></div>
+    <div class="about-grid">
+      <article class="info-card"><span class="card-icon">01</span><h3>Purpose</h3><p>Menjalankan operasional dengan fokus pada kualitas layanan, ketepatan proses, dan pengalaman customer.</p></article>
+      <article class="info-card"><span class="card-icon">02</span><h3>People</h3><p>Kami membangun tim yang mau belajar, bekerja sama, bertanggung jawab, dan terus berkembang.</p></article>
+      <article class="info-card"><span class="card-icon">03</span><h3>Growth</h3><p>Setiap peran memiliki ruang untuk belajar dan memberikan kontribusi nyata bagi operasional Healthy Go.</p></article>
+    </div>
+  </section>
+
+  <section id="jobs" class="page">
+    <div class="page-heading"><span class="eyebrow">CAREER OPPORTUNITIES</span><h2>Lowongan Kerja</h2><p>Posisi Healthy Go yang sedang dibuka.</p></div>
+    <div id="jobsList" class="jobs-list"></div>
+  </section>
+
+  <section id="apply" class="page">
+    <div class="page-heading"><span class="eyebrow">JOIN HEALTHY GO</span><h2>Lamaran</h2><p>Isi data dengan lengkap. Setelah data lamaran, kamu akan mengerjakan assessment.</p></div>
+
+    <div id="applicationFormWrap" class="form-card">
+      <form id="applicationForm">
+        <div class="form-section"><h3>Data Pribadi</h3><div class="form-grid">
+          <div class="field full"><label for="candidateName">Nama Lengkap *</label><input id="candidateName" required></div>
+          <div class="field"><label for="candidateEmail">Email *</label><input id="candidateEmail" type="email" required></div>
+          <div class="field"><label for="candidatePhone">No. WhatsApp *</label><input id="candidatePhone" type="tel" placeholder="08xxxxxxxxxx" required></div>
+          <div class="field"><label for="candidateDomicile">Domisili *</label><input id="candidateDomicile" required></div>
+          <div class="field"><label for="candidatePosition">Posisi yang Dilamar *</label><select id="candidatePosition" required></select></div>
+        </div></div>
+
+        <div class="form-section"><div class="section-title-row"><div><h3>Pengalaman Kerja</h3><p class="helper">Boleh lebih dari satu. Jika belum pernah bekerja, pilih opsi di bawah.</p></div></div>
+          <label class="check-line"><input type="checkbox" id="noExperience"> Saya belum memiliki pengalaman kerja</label>
+          <div id="experienceList"></div>
+          <button type="button" class="add-btn" id="addExperience">+ Tambah Pengalaman</button>
+        </div>
+        <button class="primary wide" type="submit">Lanjut ke Assessment →</button>
+      </form>
+    </div>
+
+    <div id="assessmentWrap" class="assessment-wrap hidden">
+      <div class="assessment-tabs"><div class="tab active">01 <span>Multiple Choice</span></div><div class="tab">02 <span>Essay</span></div></div>
+      <div id="mcPanel" class="assessment-panel">
+        <div class="assessment-head"><div><span class="eyebrow">TEST 1</span><h3>Knowledge & Situational Assessment</h3><p>Jawaban digunakan untuk kebutuhan review recruitment.</p></div><div class="progress-box"><b id="progressText">Soal 1 / 10</b><div class="progress"><div id="progressBar"></div></div></div></div>
+        <article class="question-card"><div class="question-number" id="questionNumber">SOAL 01</div><h4 id="questionText"></h4><div id="answerOptions" class="options"></div></article>
+        <div class="test-actions"><button id="prevBtn" class="ghost" type="button">← Sebelumnya</button><button id="nextBtn" class="primary" type="button">Berikutnya →</button></div>
+      </div>
+      <div id="essayPanel" class="assessment-panel hidden"><div class="assessment-head"><div><span class="eyebrow">TEST 2</span><h3>Problem Solving & Written Response</h3><p>Essay tidak memiliki score. Jawaban menjadi bahan review HR.</p></div></div><form id="essayForm"><div id="essayQuestions"></div><button class="primary wide" type="submit">Submit Lamaran & Assessment</button></form></div>
+    </div>
+
+    <div id="successWrap" class="success-card hidden"><div class="success-mark">✓</div><span class="eyebrow">APPLICATION SUBMITTED</span><h2>Lamaran berhasil dikirim.</h2><p>Terima kasih telah melamar di Healthy Go. Data lamaran dan assessment kamu telah diterima untuk proses review recruitment.</p><button class="secondary" id="homeBtn">Kembali ke Home</button></div>
+  </section>
+</main>
+<footer><span>Healthy Go • Careers</span><span>© 2026</span></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script><script src="data.js"></script><script src="script.js"></script>
+</body>
+</html>
