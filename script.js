@@ -1,4 +1,4 @@
-const pages = ['home','jobs','apply'];
+const pages = ['home','company','jobs','apply'];
 const state = {candidate:{}, experiences:[], questions:[], answers:[], index:0, testConfig:null};
 const $ = id => document.getElementById(id);
 const supabaseReady = () => SUPABASE_URL && SUPABASE_ANON_KEY && !SUPABASE_URL.startsWith('PASTE_') && !SUPABASE_ANON_KEY.startsWith('PASTE_');
