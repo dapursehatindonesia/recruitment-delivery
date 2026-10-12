@@ -17,7 +17,7 @@ const recruitmentJobs = [
     type:'Full Time',
     summary:'Mengantarkan pesanan dengan aman, tepat, dan profesional.',
     description:'Menjalankan proses delivery sesuai standar Healthy Go dan menjaga kualitas layanan kepada customer.',
-    qualifications:['Memiliki komunikasi yang baik','Bertanggung jawab dan disiplin','Siap bekerja secara operasional'],
+    qualifications:['Memiliki komunikasi yang baik','Bertanggung jawab dan disiplin','Siap bekerja secara operasional','Memahami area penugasan','Nilai plus jika memiliki pengalaman sebagai kurir'],
     active:true
   },
   {
@@ -37,7 +37,7 @@ const recruitmentJobs = [
     type:'Full Time',
     summary:'Mengontrol dan memonitor operasional delivery agar berjalan sesuai standar.',
     description:'Melakukan control, monitoring, koordinasi, dan action terhadap kebutuhan operasional.',
-    qualifications:['Memiliki kemampuan koordinasi','Komunikatif dan responsif','Mampu bekerja dengan target'],
+    qualifications:['Memiliki kemampuan koordinasi dan kepemimpinan','Komunikatif dan responsif','Mampu bekerja dengan target'],
     active:true
   }
 ];
