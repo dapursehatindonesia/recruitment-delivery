@@ -13,7 +13,7 @@ const recruitmentJobs = [
   {
     id:'kurir',
     title:'Kurir',
-    location:'Jakarta',
+    location:'Bali',
     type:'Full Time',
     summary:'Mengantarkan pesanan dengan aman, tepat, dan profesional.',
     description:'Menjalankan proses delivery sesuai standar Healthy Go dan menjaga kualitas layanan kepada customer.',
