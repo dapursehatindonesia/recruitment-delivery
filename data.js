@@ -12,8 +12,18 @@
 const recruitmentJobs = [
   {
     id:'kurir',
-    title:'Kurir',
+    title:'[URGENTLY NEEDED] Kurir',
     location:'Bali',
+    type:'Full Time',
+    summary:'Mengantarkan pesanan dengan aman, tepat, dan profesional.',
+    description:'Menjalankan proses delivery sesuai standar Healthy Go dan menjaga kualitas layanan kepada customer.',
+    qualifications:['Memiliki komunikasi yang baik','Bertanggung jawab dan disiplin','Siap bekerja secara operasional','Memahami area penugasan','Nilai plus jika memiliki pengalaman sebagai kurir'],
+    active:true
+  },
+  {
+    id:'kurir-02',
+    title:'Kurir',
+    location:'Jakarta',
     type:'Full Time',
     summary:'Mengantarkan pesanan dengan aman, tepat, dan profesional.',
     description:'Menjalankan proses delivery sesuai standar Healthy Go dan menjaga kualitas layanan kepada customer.',
@@ -28,7 +38,7 @@ const recruitmentJobs = [
     summary:'Menyiapkan pesanan sesuai standar packing sebelum diserahkan ke Kurir/Driver.',
     description:'Melakukan receive, check, scan, pack, verify, dan handover sesuai standar operasional.',
     qualifications:['Teliti dan rapi','Mampu bekerja dalam tim','Bertanggung jawab terhadap ketepatan pesanan'],
-    active:true
+    active:false
   },
   {
     id:'korlap',
@@ -38,7 +48,7 @@ const recruitmentJobs = [
     summary:'Mengontrol dan memonitor operasional delivery agar berjalan sesuai standar.',
     description:'Melakukan control, monitoring, koordinasi, dan action terhadap kebutuhan operasional.',
     qualifications:['Memiliki kemampuan koordinasi dan kepemimpinan','Komunikatif dan responsif','Mampu bekerja dengan target'],
-    active:true
+    active:false
   }
 ];
 
