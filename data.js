@@ -58,20 +58,13 @@ const recruitmentTests = {
     multipleChoice: [
       {question:'Sebelum berangkat delivery, hal yang paling tepat dilakukan adalah?',options:['Langsung berangkat agar cepat','Memastikan pesanan, alamat, perlengkapan, dan kendaraan siap','Menunggu customer menghubungi','Mengecek hanya kendaraan'],answer:1},
       {question:'Jika menemukan kondisi paket tidak sesuai sebelum berangkat, apa tindakan yang tepat?',options:['Tetap dibawa agar tidak terlambat','Mengubah label sendiri','Menghentikan proses dan melaporkan kepada pihak terkait','Menyembunyikan masalah'],answer:2},
-      {question:'Saat tiba di lokasi customer tetapi alamat sulit ditemukan, sebaiknya?',options:['Meninggalkan lokasi','Mencoba mencari tanpa memberi kabar','Menghubungi customer atau pihak terkait dengan sopan untuk konfirmasi lokasi','Menandai pesanan selesai'],answer:2},
       {question:'Saat menyerahkan pesanan kepada customer, sikap yang paling sesuai adalah?',options:['Meletakkan pesanan lalu pergi','Menyerahkan dengan sopan dan memastikan pesanan diterima dengan benar','Meminta customer mengambil sendiri tanpa komunikasi','Menunggu customer menebak siapa kurirnya'],answer:1},
       {question:'Jika customer menyampaikan komplain saat menerima pesanan, apa yang sebaiknya dilakukan terlebih dahulu?',options:['Membantah customer','Mendengarkan dengan sopan dan mencatat masalahnya','Langsung menyalahkan packing','Pergi agar tidak terjadi masalah'],answer:1},
-      {question:'Mengapa ketepatan waktu penting dalam pekerjaan kurir?',options:['Agar perjalanan terasa lebih cepat','Karena waktu delivery memengaruhi pengalaman customer dan operasional','Agar kurir bisa pulang lebih cepat','Supaya tidak perlu melakukan pengecekan'],answer:1},
-      {question:'Jika terjadi kendala di perjalanan yang berpotensi membuat pesanan terlambat, apa tindakan yang tepat?',options:['Diam sampai customer bertanya','Segera komunikasikan kendala kepada pihak terkait sesuai prosedur','Menyelesaikan sendiri tanpa informasi','Membatalkan pesanan sendiri'],answer:1},
-      {question:'Apa yang perlu dijaga selama membawa makanan dalam perjalanan?',options:['Posisi dan kondisi pesanan agar tetap aman dan tidak rusak','Kecepatan kendaraan saja','Agar semua pesanan ditumpuk','Agar tas delivery selalu terbuka'],answer:0},
-      {question:'Jika customer tidak dapat dihubungi saat sudah tiba di lokasi, tindakan yang paling tepat adalah?',options:['Langsung meninggalkan pesanan','Mengikuti prosedur kontak dan menunggu sesuai ketentuan','Menyerahkan kepada orang acak','Menandai selesai tanpa konfirmasi'],answer:1},
-      {question:'Dalam menjalankan delivery, prinsip layanan yang paling tepat adalah?',options:['Cepat tanpa peduli proses','Sopan, tepat, aman, dan mengikuti standar','Mengutamakan kecepatan di atas keamanan','Menghindari komunikasi dengan customer'],answer:1}
+      {question:'Mengapa ketepatan waktu penting dalam pekerjaan kurir?',options:['Agar perjalanan terasa lebih cepat','Karena waktu delivery memengaruhi pengalaman customer dan operasional','Agar kurir bisa pulang lebih cepat','Supaya tidak perlu melakukan pengecekan'],answer:1}
     ],
     essay: [
       'Ceritakan pengalaman kamu yang paling relevan dengan pekerjaan kurir atau pekerjaan lapangan.',
-      'Apa yang akan kamu lakukan jika pesanan berpotensi terlambat karena kendala di perjalanan?',
       'Bagaimana cara kamu menghadapi customer yang menyampaikan komplain dengan nada tinggi?',
-      'Menurut kamu, apa arti aman, tepat, dan sopan dalam pekerjaan kurir?',
       'Ceritakan contoh ketika kamu harus bertanggung jawab atas suatu pekerjaan sampai selesai.'
     ]
   },
